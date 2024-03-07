@@ -82,15 +82,4 @@ app.route('/api/users')
   return res.json(users);
 })
 
-
-// .delete((req,res)=>{
-  //   const delBody=req.body;
-  //   users.pop();
-  //   fs.writeFile('.mcokData.json',JSON.stringify(users),(err,data)=>{
-//     return res.send("updated or deleted")
-//   })
-
-// })
-
-
 app.listen(PORT,()=>console.log(`server created at ${PORT}`));
